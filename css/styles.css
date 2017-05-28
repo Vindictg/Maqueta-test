@@ -1,0 +1,228 @@
+html, body{
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.buscador{
+	background-color: #eeeeee;
+	height: 35px;
+	padding: 0 50px 0 50px;
+}
+
+.right{
+	float: right;
+}
+
+.right-flex{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.buscador img{
+	height: 35px;
+}
+.buscador input{
+	margin: 0;
+	height: 35px;
+	width: 190px;
+	border: none;
+	padding: 0 10px 0 10px;
+	font-size: 11px;
+	background-color: #000;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+:-moz-placeholder {
+   color: #fff;
+   opacity: 1;
+}
+::-moz-placeholder { 
+   color: #fff;
+   opacity: 1;
+}
+:-ms-input-placeholder {
+   color: #fff;
+}
+::-ms-input-placeholder { 
+   color: #fff;
+}
+
+.buscador input[type=text]:focus{
+	outline: none;
+}
+
+.btn{
+	border-radius: 0px;
+	margin-right: -4px;
+	height: 35px;
+	background-color: #6cc000;
+}
+
+.cabecera{
+	height: 120px;
+	background-color: #fff;
+	padding: 0 50px 0 50px;
+}
+
+.flex-center {
+	align-items: center;
+	display: flex;
+}
+
+.cabecera a{
+	color: #000;
+	padding: 0 25px;
+	font-size: 12px;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.2s;
+}
+
+.cabecera a:hover{
+	color: #6cc000;
+	transition: 0.2s;
+}
+
+.formulario{
+	margin: 100px 200px 150px 200px;
+}
+
+h1{
+	color: #6cc000;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+h5{
+	background-color: #f9f9f9;
+	padding: 10px 0 10px 20px;
+	margin-bottom: 20px;
+}
+
+.marg-formulario{
+	margin-bottom: 10px;
+}
+
+.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(126, 239, 104, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+  outline: 0 none;
+}
+
+.label-check{
+	color: #999999;
+}
+
+.enviar{
+	border: none;
+	border: 1px solid #6cc000;
+	border-radius: 50px;
+	background-color: #fff;
+	width: 120px;
+	height: 50px;
+	text-transform: uppercase;
+	color: #6cc000;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+.enviar:hover{
+	color: #fff;
+	background-color: #6cc000;
+	transition: 0.3s;
+}
+
+.enviar:focus{
+	outline: none;
+}
+
+.footer{
+	background-color: #000;
+	height: 200px;
+}
+
+.logo-black{
+	height: 90px;
+	margin-top: 55px;
+	margin-left: 80px;
+}
+
+.footer-titulo{
+	background-color: transparent;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 0;
+	margin-top: 45px;
+}
+
+.titulo-redes{
+	background-color: transparent;
+	color: #fff;
+	margin-bottom: 0;
+	margin-top: 65px;
+	margin-left: 40px;
+}
+
+.links-1{
+	padding-left: 20px;
+	display: inline-block;
+	width: 100px;
+}
+.links-2{
+	padding-left: 20px;
+	display: inline-block;
+	width: 200px;
+}
+
+.links-1 a, .links-2 a{
+	color: #fff;
+	font-size: 12px;
+}
+
+.links-1 a:hover, .links-2 a:hover{
+	opacity: 0.8;
+	text-decoration: none;
+}
+
+.redes{
+	margin-left: 67px;
+}
+
+.informacion{
+	color: #fff;
+	margin-top: 45px;
+}
+
+.mapa{
+	width: 100%;
+}
+
+.informacion span{
+	font-size: 20px;
+}
+
+.icono{
+	margin-right: 10px;
+}
